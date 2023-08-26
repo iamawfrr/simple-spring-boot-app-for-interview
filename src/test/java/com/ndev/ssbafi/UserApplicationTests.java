@@ -1,13 +1,11 @@
-package com.ndev.springbootdemo;
+package com.ndev.ssbafi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringbootdemoApplicationTests {
-
+class UserApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }

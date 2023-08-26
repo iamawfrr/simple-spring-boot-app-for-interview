@@ -1,6 +1,6 @@
-package com.ndev.springbootdemo.repository;
+package com.ndev.ssbafi.user.dao.repository;
 
-import com.ndev.springbootdemo.model.User;
+import com.ndev.ssbafi.user.dao.domain.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

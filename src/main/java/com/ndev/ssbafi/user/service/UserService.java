@@ -1,7 +1,7 @@
-package com.ndev.springbootdemo.Service;
+package com.ndev.ssbafi.user.service;
 
-import com.ndev.springbootdemo.model.User;
-import com.ndev.springbootdemo.repository.UserRepository;
+import com.ndev.ssbafi.user.dao.domain.User;
+import com.ndev.ssbafi.user.dao.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -15,23 +15,23 @@ public class UserService {
         this.userRepository = userRepository;
     }
 
-    public User findById(Long id){
-        Optional <User> userOptional = userRepository.findById(id);
+    public User findById(Long id) {
+        Optional<User> userOptional = userRepository.findById(id);
         if (userOptional.isPresent()) {
             return userOptional.get();
         }
-        throw new RuntimeException("No user by Id " + id);
+        throw new RuntimeException("No user by id " + id);
     }
 
-    public List<User> findAll (){
+    public List<User> findAll() {
         return userRepository.findAll();
     }
 
-    public User saveUser (User user) {
-        return userRepository.save(user);
+    public void saveUser(User user) {
+        userRepository.save(user);
     }
 
-    public void deleteById (Long id){
+    public void deleteById(Long id) {
         userRepository.deleteById(id);
     }
 }

@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ndev</groupId>
-    <artifactId>springbootdemo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>springbootdemo</name>
-    <description>springbootdemo</description>
+    <artifactId>simple-spring-boot-app-for-interview</artifactId>
+    <version>0.0.1</version>
+    <name>simple spring boot app for interview</name>
+    <description>simple spring boot app for interview</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
