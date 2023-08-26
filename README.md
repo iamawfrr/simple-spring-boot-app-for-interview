@@ -8,4 +8,4 @@ h2,
 thymeleaf;
 
 #### reference:
-* [creating a crud application using spring boot](https://www.youtube.com/watch?v=NA6n1Xu7o_g&ab_channel=EugeneSuleimanov)
+* [creating a crud application using spring boot;](https://www.youtube.com/watch?v=NA6n1Xu7o_g&ab_channel=EugeneSuleimanov)
